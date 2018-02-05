@@ -92,6 +92,8 @@ export PATH="/opt/android-sdk/platform-tools/:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin"
 export GBDKDIR=/opt/gbdk
 
+export RUST_SOURCE_PATH="$(rustc --print sysroot)/lib/rustlib/src/rust/src"
+
 source /etc/profile.d/devkitarm.sh
 
 source /home/nick/.rvm/scripts/rvm
